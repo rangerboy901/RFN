@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
+
 struct RFNApp: App {
+    
+    init() {
+        UITableView.appearance().separatorStyle = .none
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WorkoutListScreen()
         }
     }
 }

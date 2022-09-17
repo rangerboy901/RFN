@@ -14,6 +14,21 @@
 		4AA94AA528D623DE00AC838B /* RFNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AA428D623DE00AC838B /* RFNTests.swift */; };
 		4AA94AAF28D623DE00AC838B /* RFNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AAE28D623DE00AC838B /* RFNUITests.swift */; };
 		4AA94AB128D623DE00AC838B /* RFNUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AB028D623DE00AC838B /* RFNUITestsLaunchTests.swift */; };
+		4AA94AC428D6250B00AC838B /* WorkoutListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AC328D6250B00AC838B /* WorkoutListScreen.swift */; };
+		4AA94AC728D625FC00AC838B /* WorkoutCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AC528D625FC00AC838B /* WorkoutCoreDataModel.xcdatamodeld */; };
+		4AA94AC928D627DF00AC838B /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AC828D627DF00AC838B /* HapticsManager.swift */; };
+		4AA94ACB28D6287400AC838B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94ACA28D6287400AC838B /* CoreDataManager.swift */; };
+		4AA94ACF28D62B6E00AC838B /* FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94ACE28D62B6E00AC838B /* FormattedDate.swift */; };
+		4AA94AD128D62C3900AC838B /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AD028D62C3900AC838B /* BaseModel.swift */; };
+		4AA94AD328D62C8400AC838B /* WorkoutExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AD228D62C8400AC838B /* WorkoutExtensions.swift */; };
+		4AA94AD728D62DA400AC838B /* HistoryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AD628D62DA400AC838B /* HistoryExtensions.swift */; };
+		4AA94AD928D62E7A00AC838B /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AD828D62E7A00AC838B /* ViewExtension.swift */; };
+		4AA94AEF28D6367300AC838B /* ExerciseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AEE28D6367300AC838B /* ExerciseListViewModel.swift */; };
+		4AA94AF128D6391E00AC838B /* HistoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AF028D6391E00AC838B /* HistoryListViewModel.swift */; };
+		4AA94AF328D63AD700AC838B /* AddHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AF228D63AD700AC838B /* AddHistoryViewModel.swift */; };
+		4AA94AF528D63B7D00AC838B /* WorkoutListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AF428D63B7D00AC838B /* WorkoutListViewModel.swift */; };
+		4AA94AF728D63D1200AC838B /* AddWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AF628D63D1200AC838B /* AddWorkoutViewModel.swift */; };
+		4AA94AF928D642AB00AC838B /* Exercise+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94AF828D642AB00AC838B /* Exercise+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +59,21 @@
 		4AA94AAA28D623DE00AC838B /* RFNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA94AAE28D623DE00AC838B /* RFNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFNUITests.swift; sourceTree = "<group>"; };
 		4AA94AB028D623DE00AC838B /* RFNUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFNUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AA94AC328D6250B00AC838B /* WorkoutListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListScreen.swift; sourceTree = "<group>"; };
+		4AA94AC628D625FC00AC838B /* WorkoutCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkoutCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		4AA94AC828D627DF00AC838B /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		4AA94ACA28D6287400AC838B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4AA94ACE28D62B6E00AC838B /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
+		4AA94AD028D62C3900AC838B /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		4AA94AD228D62C8400AC838B /* WorkoutExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutExtensions.swift; sourceTree = "<group>"; };
+		4AA94AD628D62DA400AC838B /* HistoryExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryExtensions.swift; sourceTree = "<group>"; };
+		4AA94AD828D62E7A00AC838B /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		4AA94AEE28D6367300AC838B /* ExerciseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewModel.swift; sourceTree = "<group>"; };
+		4AA94AF028D6391E00AC838B /* HistoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListViewModel.swift; sourceTree = "<group>"; };
+		4AA94AF228D63AD700AC838B /* AddHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHistoryViewModel.swift; sourceTree = "<group>"; };
+		4AA94AF428D63B7D00AC838B /* WorkoutListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListViewModel.swift; sourceTree = "<group>"; };
+		4AA94AF628D63D1200AC838B /* AddWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewModel.swift; sourceTree = "<group>"; };
+		4AA94AF828D642AB00AC838B /* Exercise+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +124,15 @@
 		4AA94A9228D623DC00AC838B /* RFN */ = {
 			isa = PBXGroup;
 			children = (
+				4AA94AC228D6244A00AC838B /* Models */,
+				4AA94AC128D6243F00AC838B /* Views */,
+				4AA94AC028D6242A00AC838B /* Extensions */,
+				4AA94ABE28D6241400AC838B /* ViewModels */,
+				4AA94ABD28D6240B00AC838B /* Managers */,
 				4AA94A9328D623DC00AC838B /* RFNApp.swift */,
-				4AA94A9528D623DC00AC838B /* ContentView.swift */,
 				4AA94A9728D623DE00AC838B /* Assets.xcassets */,
 				4AA94A9928D623DE00AC838B /* Preview Content */,
+				4AA94AC528D625FC00AC838B /* WorkoutCoreDataModel.xcdatamodeld */,
 			);
 			path = RFN;
 			sourceTree = "<group>";
@@ -125,6 +160,64 @@
 				4AA94AB028D623DE00AC838B /* RFNUITestsLaunchTests.swift */,
 			);
 			path = RFNUITests;
+			sourceTree = "<group>";
+		};
+		4AA94ABD28D6240B00AC838B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4AA94AC828D627DF00AC838B /* HapticsManager.swift */,
+				4AA94ACA28D6287400AC838B /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4AA94ABE28D6241400AC838B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4AA94AEE28D6367300AC838B /* ExerciseListViewModel.swift */,
+				4AA94AF028D6391E00AC838B /* HistoryListViewModel.swift */,
+				4AA94AF228D63AD700AC838B /* AddHistoryViewModel.swift */,
+				4AA94AF428D63B7D00AC838B /* WorkoutListViewModel.swift */,
+				4AA94AF628D63D1200AC838B /* AddWorkoutViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4AA94ABF28D6242000AC838B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4AA94AC328D6250B00AC838B /* WorkoutListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4AA94AC028D6242A00AC838B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4AA94ACE28D62B6E00AC838B /* FormattedDate.swift */,
+				4AA94AD828D62E7A00AC838B /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4AA94AC128D6243F00AC838B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AA94A9528D623DC00AC838B /* ContentView.swift */,
+				4AA94ABF28D6242000AC838B /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4AA94AC228D6244A00AC838B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AA94AD028D62C3900AC838B /* BaseModel.swift */,
+				4AA94AD228D62C8400AC838B /* WorkoutExtensions.swift */,
+				4AA94AD628D62DA400AC838B /* HistoryExtensions.swift */,
+				4AA94AF828D642AB00AC838B /* Exercise+Extension.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +350,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA94AEF28D6367300AC838B /* ExerciseListViewModel.swift in Sources */,
+				4AA94AD128D62C3900AC838B /* BaseModel.swift in Sources */,
+				4AA94AD328D62C8400AC838B /* WorkoutExtensions.swift in Sources */,
+				4AA94AF128D6391E00AC838B /* HistoryListViewModel.swift in Sources */,
+				4AA94ACB28D6287400AC838B /* CoreDataManager.swift in Sources */,
+				4AA94AF528D63B7D00AC838B /* WorkoutListViewModel.swift in Sources */,
+				4AA94AC728D625FC00AC838B /* WorkoutCoreDataModel.xcdatamodeld in Sources */,
+				4AA94AF928D642AB00AC838B /* Exercise+Extension.swift in Sources */,
+				4AA94ACF28D62B6E00AC838B /* FormattedDate.swift in Sources */,
+				4AA94AF728D63D1200AC838B /* AddWorkoutViewModel.swift in Sources */,
 				4AA94A9628D623DC00AC838B /* ContentView.swift in Sources */,
+				4AA94AD728D62DA400AC838B /* HistoryExtensions.swift in Sources */,
+				4AA94AF328D63AD700AC838B /* AddHistoryViewModel.swift in Sources */,
+				4AA94AC428D6250B00AC838B /* WorkoutListScreen.swift in Sources */,
+				4AA94AC928D627DF00AC838B /* HapticsManager.swift in Sources */,
 				4AA94A9428D623DC00AC838B /* RFNApp.swift in Sources */,
+				4AA94AD928D62E7A00AC838B /* ViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +691,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4AA94AC528D625FC00AC838B /* WorkoutCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4AA94AC628D625FC00AC838B /* WorkoutCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 4AA94AC628D625FC00AC838B /* WorkoutCoreDataModel.xcdatamodel */;
+			path = WorkoutCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4AA94A8828D623DC00AC838B /* Project object */;
 }
