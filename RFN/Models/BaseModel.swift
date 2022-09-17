@@ -2,7 +2,7 @@
 //  BaseModel.swift
 //  RFN
 //
-//  Created by Joseph Wil;liam DeWeese on 9/17/22.
+//  Created by Joseph William DeWeese on 9/17/22.
 //
 
 import Foundation
