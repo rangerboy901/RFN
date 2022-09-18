@@ -64,6 +64,7 @@ struct WorkoutListScreen: View {
         .foregroundColor(.primary)
         .sheet(isPresented: $isPresented, onDismiss: {
             workoutListVM.getAllWorkouts()
+            
         },  content: {
             AddWorkoutScreen()
         })

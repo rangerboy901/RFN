@@ -33,7 +33,7 @@ struct ExerciseViewModel {
         return exercise.name ?? ""
     }
     
-    var movies: [WorkoutViewModel] {
+    var workouts: [WorkoutViewModel] {
         return Workout.byExerciseName(name: name).map(WorkoutViewModel.init)
     }
 }

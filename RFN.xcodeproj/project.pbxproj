@@ -32,6 +32,7 @@
 		4AB8A2FE28D667010006C893 /* WorkoutCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8A2FD28D667010006C893 /* WorkoutCellView.swift */; };
 		4AB8A30028D6671C0006C893 /* WorkoutDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8A2FF28D6671C0006C893 /* WorkoutDetailScreen.swift */; };
 		4AB8A30228D668420006C893 /* AddWorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8A30128D668420006C893 /* AddWorkoutScreen.swift */; };
+		4AB8A30428D6799D0006C893 /* AddExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8A30328D6799D0006C893 /* AddExerciseViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		4AB8A2FD28D667010006C893 /* WorkoutCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCellView.swift; sourceTree = "<group>"; };
 		4AB8A2FF28D6671C0006C893 /* WorkoutDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailScreen.swift; sourceTree = "<group>"; };
 		4AB8A30128D668420006C893 /* AddWorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutScreen.swift; sourceTree = "<group>"; };
+		4AB8A30328D6799D0006C893 /* AddExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				4AA94AF228D63AD700AC838B /* AddHistoryViewModel.swift */,
 				4AA94AF428D63B7D00AC838B /* WorkoutListViewModel.swift */,
 				4AA94AF628D63D1200AC838B /* AddWorkoutViewModel.swift */,
+				4AB8A30328D6799D0006C893 /* AddExerciseViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 			files = (
 				4AB8A2FE28D667010006C893 /* WorkoutCellView.swift in Sources */,
 				4AA94AEF28D6367300AC838B /* ExerciseListViewModel.swift in Sources */,
+				4AB8A30428D6799D0006C893 /* AddExerciseViewModel.swift in Sources */,
 				4AA94AD128D62C3900AC838B /* BaseModel.swift in Sources */,
 				4AA94AD328D62C8400AC838B /* WorkoutExtensions.swift in Sources */,
 				4AA94AF128D6391E00AC838B /* HistoryListViewModel.swift in Sources */,

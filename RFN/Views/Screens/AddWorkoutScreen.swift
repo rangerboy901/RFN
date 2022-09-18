@@ -10,13 +10,12 @@ import SwiftUI
 struct AddWorkoutScreen: View {
     ///:Properties:
     @StateObject private var addWorkoutVM = AddWorkoutViewModel()
+    @StateObject private var addExerciseVM = AddExerciseViewModel()
     @Environment(\.presentationMode) var presentationMode
-    
     let types = ["Strength", "Power", "Cardio", "HIIT", "Recover"]
     
-    
     var body: some View {
-        Form{
+        List{
             Section(header: Text("Add Workout")) {
                 TextField("Enter name of workout...", text:$addWorkoutVM.title)
                 
@@ -43,8 +42,8 @@ struct AddWorkoutScreen: View {
                     }
                 }
                 .pickerStyle(SegmentedPickerStyle())
+               Divider()
                
-                
                 DatePicker("Date Created:", selection: $addWorkoutVM.dueDate)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
